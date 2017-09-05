@@ -8,6 +8,7 @@
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "react-router": "^4.2.0",
+    "react-x-ray": "^1.0.0-2",
     "rebass": "^1.0.4"
   },
   "keywords": [
