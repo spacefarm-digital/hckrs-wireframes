@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-x-ray": "^1.0.0-2",
+    "styled-components": "^2.1.2"
+  }
+}
