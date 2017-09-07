@@ -1,9 +1,9 @@
-import React from "react";
-import Link from "gatsby-link";
-import { Flex, Button, Text, Container } from "rebass";
-import AvatarCard from "../components/AvatarCard";
-import MyCard from "../components/Card";
-import PrimaryNav from "../components/PrimaryNav";
+import React from 'react'
+import Link from 'gatsby-link'
+import { Flex, Button, Text, Container } from 'rebass'
+import AvatarCard from '../components/AvatarCard'
+import MyCard from '../components/Card'
+import PrimaryNav from '../components/PrimaryNav'
 
 const IndexPage = () => (
   <div>
@@ -16,6 +16,6 @@ const IndexPage = () => (
       />
     </Container>
   </div>
-);
+)
 
-export default IndexPage;
+export default IndexPage

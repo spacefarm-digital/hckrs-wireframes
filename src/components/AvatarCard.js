@@ -1,6 +1,6 @@
-import React from "react";
-import { Avatar, Text, Flex } from "rebass";
-import Shadow from "../components/Shadow";
+import React from 'react'
+import { Avatar, Text, Flex } from 'rebass'
+import Shadow from '../components/Shadow'
 
 const AvatarCard = props => (
   <Shadow p={3}>
@@ -12,5 +12,5 @@ const AvatarCard = props => (
       <Text>{props.title}</Text>
     </Flex>
   </Shadow>
-);
-export default AvatarCard;
+)
+export default AvatarCard
