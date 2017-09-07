@@ -1,20 +1,20 @@
 import React from "react";
 import Link from "gatsby-link";
-import { Flex, Button, Text } from "rebass";
-
-import MyCard from "../components/card";
+import { Flex, Button, Text, Container } from "rebass";
+import AvatarCard from "../components/AvatarCard";
+import MyCard from "../components/Card";
+import PrimaryNav from "../components/PrimaryNav";
 
 const IndexPage = () => (
   <div>
-    <Flex justify="flex-start">
-      <Button>Hey</Button>
-      <Text fontSize={1} bg="red" is="h1" bold w={1 / 2} center>
-        A text thing
-      </Text>
-      <p>A text thing</p>
-    </Flex>
-    <Link to="page-2">Click me</Link>
-    <MyCard />
+    <PrimaryNav />
+    <Container pt={5}>
+      <AvatarCard
+        image="https://static.esea.net/global/images/users/428235.1431669312.jpg"
+        name="Jane Doe"
+        title="boss lady"
+      />
+    </Container>
   </div>
 );
 
