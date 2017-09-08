@@ -1,9 +1,9 @@
 import React from 'react'
 import { Avatar, Text, Flex } from 'rebass'
-import Shadow from '../components/Shadow'
+import Card from '../components/Card'
 
 const AvatarCard = props => (
-  <Shadow p={3}>
+  <Card p={3}>
     <Avatar mr={3} src={props.image} size={64} />
     <Flex column>
       <Text bold f={2}>
@@ -11,6 +11,6 @@ const AvatarCard = props => (
       </Text>
       <Text>{props.title}</Text>
     </Flex>
-  </Shadow>
+  </Card>
 )
 export default AvatarCard

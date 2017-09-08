@@ -13,6 +13,7 @@ import { Provider } from 'rebass'
 // Xray
 import Xray from 'react-x-ray'
 1
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -29,7 +30,9 @@ const TemplateWrapper = ({ children }) => (
       theme={{
         font: '"Roboto", -apple-system, Helvetica, sans-serif',
         fontSizes: [12, 16, 24, 36, 48, 72],
-        // Add colors here
+        colors: {
+          grey: 'red',
+        },
       }}
     >
       {children()}

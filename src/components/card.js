@@ -1,13 +1,12 @@
-import React from "react";
-import { Border, Box, Text, Flex } from "rebass";
+import React from 'react'
+import { Flex } from 'rebass'
+import styled from 'styled-components'
 
-const MyCard = () => (
-  <Border bg="blue" color="red" text-color="white" p={2}>
-    <Flex justify="space-between" align="center">
-      <Box color="white">Hello</Box>
-      <Text f={3}>🤖</Text>
-    </Flex>
-  </Border>
-);
+const Card = styled(Flex)`
+  box-shadow: 0 0 10px 0 rgba(61, 62, 64, 0.07),
+    0 4px 8px 0 rgba(61, 62, 64, 0.025);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+`
 
-export default MyCard;
+export default Card
