@@ -3,9 +3,9 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const PrettyLink = styled(Link)`
+  display: ${props => (props.block ? 'block' : 'inline')};
   text-decoration: none;
-  color: inherit;
-  display: block;
+  color: #0070e0;
   font-weight: 800;
   transition: all 150ms ease;
   &:hover ${PrettyLink} {
