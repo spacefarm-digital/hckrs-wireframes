@@ -21,24 +21,6 @@ const IndexPage = () => (
           />
         </Box>
       </Flex>
-      <Flex wrap mx={-2}>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <ChallengePreview
-            title="Spartan Hackathon"
-            image="https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/684/thumb/bigred_splash.png?1500042878"
-            date="27 September"
-            location="<ChallengePreview
-        title="
-            BigRed //Hacks"
-            category="👩‍⚕️"
-            image="https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/000/684/thumb/bigred_splash.png?1500042878"
-            location="Cornell University"
-            excerpt="Across three days, students from all across the US will gather to build the coolest and most innovative projects, meet amazing people, and win some prizes along the way!"
-            participants={32}
-            date="September 15-17"
-          />
-        </Box>
-      </Flex>
     </Container>
   </div>
 )

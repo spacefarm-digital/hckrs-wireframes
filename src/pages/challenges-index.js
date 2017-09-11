@@ -13,7 +13,7 @@ const ChallengesIndex = () => (
   <Restrain>
     <PrimaryNav />
     {/* Title */}
-    <Heading f={4} mb={3} pt={4} px={3}>
+    <Heading f={4} mb={4} pt={4} px={3}>
       Challenges
     </Heading>
     {/* Filter */}
