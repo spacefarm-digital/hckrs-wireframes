@@ -6,7 +6,8 @@ import {
   Flex,
   Button,
   BackgroundImage,
-  Circle
+  Circle,
+  Box
 } from "rebass";
 import Card from "../components/Card";
 
@@ -23,13 +24,15 @@ const ChallengeInfo = props => (
         Challenge title
       </Heading>
     </Flex>
-    <PrettyLink>Challenger</PrettyLink>
-    <Text>Upcoming 🔵</Text>
-    <Text>📅 11-13 Sept 2017</Text>
-    <Text>🗺 Sofia</Text>
-    <Text>🚀 Category</Text>
-    <Heading>Prizes</Heading>
-    <Text>1st place: $500</Text>
+    <Box>
+      <PrettyLink>Challenger</PrettyLink>
+      <Text>Upcoming 🔵</Text>
+      <Text>📅 11-13 Sept 2017</Text>
+      <Text>🗺 Sofia</Text>
+      <Text>🚀 Category</Text>
+      <Heading>Prizes</Heading>
+      <Text>1st place: $500</Text>
+    </Box>
   </Card>
 );
 export default ChallengeInfo;
