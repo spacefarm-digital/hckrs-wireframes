@@ -59,3 +59,4 @@ typings/
 
 /.cache
 /public
+.DS_Store
