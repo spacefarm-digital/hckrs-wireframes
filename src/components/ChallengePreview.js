@@ -22,7 +22,7 @@ const ChallengePreview = props => (
       <Text bold>{props.live ? 'Live ✅' : 'Upcoming 🕐'}</Text>
     </Flex>
     <Flex w={1} mb={2}>
-      <Heading f={3}>{props.title}</Heading>
+      <Heading f={2}>{props.title}</Heading>
     </Flex>
     <Flex w={1} mb={2}>
       <Text bold>
