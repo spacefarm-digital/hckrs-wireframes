@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => (
         fontSizes: [12, 16, 24, 36, 48, 72],
         colors: {
           blue: '#0070e0',
-          grey: 'red',
+          grey: '#ddd',
         },
       }}
     >
