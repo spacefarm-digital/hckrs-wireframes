@@ -6,7 +6,7 @@ import HackerPreview from '../components/HackerPreview'
 import ChallengePreview from '../components/ChallengePreview'
 import PrimaryNav from '../components/PrimaryNav'
 import Swiper from '../components/Swiper'
-import Filter from '../components/Filter'
+import HackerFilter from '../components/HackerFilter'
 import Restrain from '../components/Restrain'
 
 const ChallengesIndex = () => (
@@ -14,27 +14,39 @@ const ChallengesIndex = () => (
     <PrimaryNav />
     {/* Title */}
     <Heading f={4} mb={4} pt={4} px={3}>
-      Challenges
+      Hackers
     </Heading>
     {/* Filter */}
-    <Filter />
+    <HackerFilter />
     {/* Challenges listing */}
     <Box px={3}>
       <Flex wrap mx={-2}>
         <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <ChallengePreview />
+          <HackerPreview />
         </Box>
         <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <ChallengePreview />
+          <HackerPreview />
         </Box>
         <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <ChallengePreview />
+          <HackerPreview />
         </Box>
         <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <ChallengePreview />
+          <HackerPreview />
         </Box>
         <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <ChallengePreview />
+          <HackerPreview />
+        </Box>
+        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
+          <HackerPreview />
+        </Box>
+        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
+          <HackerPreview />
+        </Box>
+        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
+          <HackerPreview />
+        </Box>
+        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
+          <HackerPreview />
         </Box>
       </Flex>
     </Box>

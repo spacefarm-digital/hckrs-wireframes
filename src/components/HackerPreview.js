@@ -9,7 +9,7 @@ const HackerPreview = props => (
   <Card p={3} w={1} align="center">
     <Avatar src={placeholder} mr={3} size={64} />
     <Box>
-      <PrettyLink>
+      <PrettyLink to="hacker-single">
         <Heading is="h2" f={2} mb={1}>
           Hacker Name
         </Heading>

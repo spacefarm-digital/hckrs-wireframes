@@ -12,7 +12,6 @@ import { Provider } from 'rebass'
 
 // Xray
 import Xray from 'react-x-ray'
-1
 
 const TemplateWrapper = ({ children }) => (
   <div>

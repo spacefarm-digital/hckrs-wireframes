@@ -1,9 +1,10 @@
 import React from 'react'
-import { Button, Flex, Box } from 'rebass'
+import { Flex, Box } from 'rebass'
+import MediaQuery from 'react-responsive'
 import Swiper from '../components/Swiper'
 import PrettyLink from '../components/PrettyLink'
 import Restrain from '../components/Restrain'
-import MediaQuery from 'react-responsive'
+import ButtonLink from '../components/ButtonLink'
 
 const PrimaryNav = () => (
   <Restrain>
@@ -12,7 +13,7 @@ const PrimaryNav = () => (
         {/* Logo + CTA  */}
         <Flex mb={2} px={3} py={2} w={1} justify="space-between" align="center">
           <PrettyLink to="/">Hckrs</PrettyLink>
-          <Button>Register</Button>
+          <ButtonLink>Register</ButtonLink>
         </Flex>
         {/* All the PrettyLinks */}
         <Swiper is="ul">
@@ -23,7 +24,7 @@ const PrimaryNav = () => (
             <PrettyLink to="/challenges-index">Challenges</PrettyLink>
           </Box>
           <Box p={3}>
-            <PrettyLink to="/hackers">Hackers</PrettyLink>
+            <PrettyLink to="/hackers-index">Hackers</PrettyLink>
           </Box>
           <Box p={3}>
             <PrettyLink to="/news">News</PrettyLink>
@@ -44,12 +45,12 @@ const PrimaryNav = () => (
             <PrettyLink to="/challenges-index">Challenges</PrettyLink>
           </Box>
           <Box px={3} is="li">
-            <PrettyLink to="/hackers">Hackers</PrettyLink>
+            <PrettyLink to="/hackers-index">Hackers</PrettyLink>
           </Box>
           <Box px={3} is="li">
             <PrettyLink to="/news">News</PrettyLink>
           </Box>
-          <Button>Register</Button>
+          <ButtonLink>Register</ButtonLink>
         </Flex>
       </Flex>
     </MediaQuery>
