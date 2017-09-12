@@ -7,6 +7,7 @@ const Card = styled(Flex)`
     0 4px 8px 0 rgba(61, 62, 64, 0.025);
   border: 1px solid #ddd;
   border-radius: 4px;
+  background-color: #fff;
 `
 
 export default Card

@@ -12,17 +12,15 @@ import {
 
 import Card from '../components/Card'
 import PrettyLink from '../components/PrettyLink'
+import placeholder from '../images/placeholder-object.jpg'
 
 const ChallengeInfo = props => (
-  <Card wrap p={3}>
+  <Card wrap p={3} mb={3}>
     <Flex justify="flex-end" mb={3} w={1}>
       <Text bold>Upcoming 🔵</Text>
     </Flex>
     <Flex mb={3} w={1} justify="center">
-      <Avatar
-        size={96}
-        src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"
-      />
+      <Avatar size={96} src={placeholder} />
     </Flex>
     <Flex column align="center" w={1}>
       <Heading f={3} mb={1} is="h1">

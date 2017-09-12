@@ -1,9 +1,9 @@
-import React from "react";
-import { Button, Flex, Box } from "rebass";
-import Swiper from "../components/Swiper";
-import PrettyLink from "../components/PrettyLink";
-import Restrain from "../components/Restrain";
-import MediaQuery from "react-responsive";
+import React from 'react'
+import { Button, Flex, Box } from 'rebass'
+import Swiper from '../components/Swiper'
+import PrettyLink from '../components/PrettyLink'
+import Restrain from '../components/Restrain'
+import MediaQuery from 'react-responsive'
 
 const PrimaryNav = () => (
   <Restrain>
@@ -54,5 +54,5 @@ const PrimaryNav = () => (
       </Flex>
     </MediaQuery>
   </Restrain>
-);
-export default PrimaryNav;
+)
+export default PrimaryNav
