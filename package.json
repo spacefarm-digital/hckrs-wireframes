@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "next",
-    "gatsby-link": "^1.6.15",
-    "gatsby-plugin-react-helmet": "^1.0.5",
-    "gatsby-plugin-styled-components": "^1.0.5",
+    "gatsby": "canary",
+    "gatsby-link": "canary",
+    "gatsby-plugin-react-helmet": "canary",
+    "gatsby-plugin-styled-components": "canary",
     "react-responsive": "^1.3.4",
     "react-router": "^4.2.0",
     "react-x-ray": "^1.0.0-2",
@@ -22,7 +22,7 @@
     "format":
       "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "now": "gatsby build"
+    "now-start": "gatsby build"
   },
   "devDependencies": {
     "prettier": "^1.6.1"
