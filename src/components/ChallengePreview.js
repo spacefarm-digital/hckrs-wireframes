@@ -1,5 +1,13 @@
 import React from 'react'
-import { Avatar, Heading, Text, Flex, BackgroundImage, Circle } from 'rebass'
+import {
+  Avatar,
+  Heading,
+  Text,
+  Flex,
+  BackgroundImage,
+  Circle,
+  Image,
+} from 'rebass'
 import Card from '../components/Card'
 
 import PrettyLink from '../components/PrettyLink'
@@ -14,7 +22,8 @@ const ChallengePreview = props => (
       <PrettyLink>✈️ Categories</PrettyLink>
       <Text bold>Upcoming 🔵</Text>
     </Flex>
-    <Flex w={1} mb={2}>
+    <Flex w={1} mb={2} align="flex-start">
+      <Image width={32} mr={2} src={placeholder} />
       <Heading f={2}>Challenge name</Heading>
     </Flex>
     <Flex w={1} mb={2}>
