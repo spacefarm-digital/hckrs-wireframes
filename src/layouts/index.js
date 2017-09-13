@@ -32,6 +32,9 @@ const TemplateWrapper = ({ children }) => (
         colors: {
           blue: '#0070e0',
           grey: '#ddd',
+          fb: '#3b5998',
+          twitter: '#1da1f2',
+          github: '#4078c0',
         },
       }}
     >
