@@ -15,7 +15,7 @@ const ChallengePreview = props => (
       <Text bold>Upcoming 🔵</Text>
     </Flex>
     <Flex w={1} mb={2}>
-      <Heading f={2}>Challenge Name</Heading>
+      <Heading f={2}>Challenge name</Heading>
     </Flex>
     <Flex w={1} mb={2}>
       <Text bold>
