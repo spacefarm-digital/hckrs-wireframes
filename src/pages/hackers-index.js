@@ -8,18 +8,24 @@ import PrimaryNav from '../components/PrimaryNav'
 import Swiper from '../components/Swiper'
 import HackerFilter from '../components/HackerFilter'
 import Restrain from '../components/Restrain'
+import Search from '../components/Search'
 
 const ChallengesIndex = () => (
   <Restrain>
     <PrimaryNav />
-    {/* Title */}
-    <Heading f={4} mb={4} pt={4} px={3}>
-      Hackers
-    </Heading>
-    {/* Filter */}
-    <HackerFilter />
-    {/* Challenges listing */}
-    <Box px={3}>
+    <Box px={3} pt={4}>
+      {/* Title + search */}
+      <Flex wrap align="center">
+        <Box w={[1, 1, 2 / 3]} mb={3}>
+          <Heading f={4}>Hackers</Heading>
+        </Box>
+        <Box w={[1, 1, 1 / 3]} mb={3}>
+          <Search />
+        </Box>
+      </Flex>
+      {/* Filter */}
+      <HackerFilter />
+      {/* Challenges listing */}
       <Flex wrap mx={-2}>
         <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
           <HackerPreview />

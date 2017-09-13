@@ -5,7 +5,7 @@ import HackerPreview from '../components/HackerPreview'
 import Swiper from '../components/Swiper'
 
 const Filter = () => (
-  <Flex px={3} align="baseline" wrap>
+  <Flex align="baseline" wrap mb={2}>
     <Text pr={2}>Showing</Text>
     <Badge px={2} f={1} mb={3} bold bg="grey" color="black">
       ✅ Recently active
