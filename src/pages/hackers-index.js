@@ -9,6 +9,7 @@ import Swiper from '../components/Swiper'
 import HackerFilter from '../components/HackerFilter'
 import Restrain from '../components/Restrain'
 import Search from '../components/Search'
+import Hackers from '../components/Hackers'
 
 const ChallengesIndex = () => (
   <Restrain>
@@ -26,35 +27,7 @@ const ChallengesIndex = () => (
       {/* Filter */}
       <HackerFilter />
       {/* Challenges listing */}
-      <Flex wrap mx={-2}>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-        <Box px={2} w={[1, 1 / 2, 1 / 2, 1 / 3]} mb={3}>
-          <HackerPreview />
-        </Box>
-      </Flex>
+      <Hackers />
     </Box>
   </Restrain>
 )

@@ -13,6 +13,9 @@ import { Provider } from 'rebass'
 // Xray
 import Xray from 'react-x-ray'
 
+// Footer
+import Footer from '../components/Footer'
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -39,6 +42,7 @@ const TemplateWrapper = ({ children }) => (
       }}
     >
       {children()}
+      <Footer />
     </Provider>
     {/* </Xray> */}
   </div>
