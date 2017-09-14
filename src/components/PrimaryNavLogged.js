@@ -1,25 +1,24 @@
 import React from 'react'
-import { Flex, Box } from 'rebass'
+import { Flex, Box, Avatar } from 'rebass'
 import MediaQuery from 'react-responsive'
 import Swiper from '../components/Swiper'
 import PrettyLink from '../components/PrettyLink'
 import Restrain from '../components/Restrain'
 import ButtonLink from '../components/ButtonLink'
 
-const PrimaryNav = () => (
+import placeholder from '../images/placeholder-avatar.jpg'
+
+const PrimaryNavLogged = () => (
   <Restrain>
     <MediaQuery query="(max-width: 540px)">
       <Flex wrap>
         {/* Logo + CTA  */}
         <Flex mb={2} px={3} py={2} w={1} justify="space-between" align="center">
           <PrettyLink to="/">Hckrs</PrettyLink>
-          <ButtonLink>Register</ButtonLink>
+          <Avatar src={placeholder} size={40} />
         </Flex>
         {/* All the PrettyLinks */}
         <Swiper is="ul">
-          <Box p={3}>
-            <PrettyLink to="/benefits">Benefits</PrettyLink>
-          </Box>
           <Box p={3}>
             <PrettyLink to="/challenges-index">Challenges</PrettyLink>
           </Box>
@@ -39,9 +38,6 @@ const PrimaryNav = () => (
         {/* All the PrettyLinks */}
         <Flex is="ul" align="center">
           <Box px={3} is="li">
-            <PrettyLink to="/benefits">Benefits</PrettyLink>
-          </Box>
-          <Box px={3} is="li">
             <PrettyLink to="/challenges-index">Challenges</PrettyLink>
           </Box>
           <Box px={3} is="li">
@@ -50,10 +46,10 @@ const PrimaryNav = () => (
           <Box px={3} is="li">
             <PrettyLink to="/news-index">News</PrettyLink>
           </Box>
-          <ButtonLink>Register</ButtonLink>
+          <Avatar src={placeholder} size={40} />
         </Flex>
       </Flex>
     </MediaQuery>
   </Restrain>
 )
-export default PrimaryNav
+export default PrimaryNavLogged

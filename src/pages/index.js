@@ -1,15 +1,17 @@
 import React from 'react'
-import { Flex, Container, Heading, Box } from 'rebass'
+import { Flex, Heading, Box } from 'rebass'
 import PrimaryNav from '../components/PrimaryNav'
 import ChallengePreview from '../components/ChallengePreview'
 import Swiper from '../components/Swiper'
 import HackerCompactPreview from '../components/HackerCompactPreview'
 import HomeHero from '../components/HomeHero'
+import News from '../components/News'
+import Restrain from '../components/Restrain'
 
 const IndexPage = () => (
-  <div>
+  <Box>
     <PrimaryNav />
-    <Container pt={3}>
+    <Restrain pt={3} p={3}>
       {/* Hero */}
       <HomeHero />
       {/* Challenges */}
@@ -36,7 +38,7 @@ const IndexPage = () => (
           </Box>
         </Flex>
       </Box>
-    </Container>
+    </Restrain>
     {/* HackerCompactPreviews */}
     <Box is="section">
       <Heading f={3} mb={3} is="h2" px={3}>
@@ -71,7 +73,13 @@ const IndexPage = () => (
         </Flex>
       </Swiper>
     </Box>
-    <Container />
-  </div>
+    {/* News */}
+    <Restrain px={3}>
+      <Heading f={3} mb={3} is="h2">
+        News
+      </Heading>
+      <News />
+    </Restrain>
+  </Box>
 )
 export default IndexPage
